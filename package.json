@@ -1,6 +1,6 @@
 {
   "name": "generator_username_random",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for generating random usernames.",
   "main": "./dist/index.js",
   "scripts": {
@@ -15,8 +15,8 @@
     "url": "https://github.com/jdiaz22009/generator_username_random.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Juan David Diaz",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.5.4"
   }
