@@ -1,2 +1,8 @@
 export {adjectives, substantives} from './mock';
-export * from './utils';
+export {
+  generateFromEmail,
+  usernameGenerate,
+  uniqueUsernameGenerator,
+} from './utils';
+
+export {Config} from './types/index';
