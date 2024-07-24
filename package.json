@@ -1,14 +1,17 @@
 {
   "name": "generator_username_random",
-  "version": "1.0.4",
-  "description": "A package for generating random usernames.",
+  "version": "1.0.5",
+  "description": "A package for generating random username and uuid",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist/ && tsc"
   },
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "repository": {
     "type": "git",
@@ -17,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/jdiaz22009/generator_username_random/issues"
   },
-
   "homepage": "https://github.com/jdiaz22009/generator_username_random#readme",
   "keywords": [
     "generate",
@@ -27,10 +29,12 @@
     "generate username",
     "generate-username-from-email",
     "generate unique username",
-    "generate-unique-username",
-    "generate-unique-name",
+    "generate username random",
+    "generate-username-random",
     "unique-username-generator",
+    "random-username-generator",
     "unique-name-generator",
+    "random-name-generator",
     "unique",
     "random",
     "user",
@@ -40,9 +44,7 @@
   "author": "Juan David Diaz",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.14.12",
     "typescript": "^5.5.4"
-  },
-  "dependencies": {
-    "generator_username_random": "^1.0.3"
   }
 }
